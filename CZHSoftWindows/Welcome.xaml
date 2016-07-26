@@ -1,0 +1,12 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Name="welcomeWindow" x:Class="CZHSoftWindows.Welcome"
+        Title="Welcome" Height="300" Width="300" WindowStyle="ToolWindow" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Image Height="85" HorizontalAlignment="Left" Margin="0,4,0,0" x:Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="292" Source="/CZHSoftWindows;component/Images/CZHSoft_Logo_png.png" />
+        <Button Content="流程配置" Height="80" HorizontalAlignment="Left" Margin="0,89,0,0" x:Name="btnFlowSetting" VerticalAlignment="Top" Width="80" Click="btnFlowSetting_Click" />
+        <Button Content="运行程序" Height="80" HorizontalAlignment="Left" Margin="204,187,0,0" x:Name="btnRun" VerticalAlignment="Top" Width="80" Click="btnRun_Click" />
+        <Button Content="配置信息" Margin="0,89,128,106" HorizontalAlignment="Right" Width="80" x:Name="btnDicSetting" Height="80" Click="btnDicSetting_Click" />
+    </Grid>
+</Window>
