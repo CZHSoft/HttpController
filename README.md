@@ -32,17 +32,21 @@ A prototype of Http operation。(一种HTTP操作的原型)
 
 ### 1. 流程配置
 ![image](https://raw.githubusercontent.com/CZHsoft/HttpController/master/pic1.png)
+
 用来定义Http操作的具体流程链路，当前拿了jobcn网站作为实验。具体的参数如何填充，可以通过Http分析器捕获的具体网页操作来填入对应的参数信息。
 
 ### 2. 配置信息
 ![image](https://raw.githubusercontent.com/CZHsoft/HttpController/master/pic2.png)
+
 由于进行POST操作的时候需要把对应参数信息拿到并一起发送，所以这里把参数信息通过Http分析器导出Excel文件或者直接用Excel编辑并保存。
 
 ### 3. 程序运行
 ![image](https://raw.githubusercontent.com/CZHsoft/HttpController/master/pic3.png)
+
 输入对应的参数，测试具体操作结果。
 
-作者 [@chenandczh][1]     
+作者 [@chenandczh][1] 
+QQ: 1124407651   
 2016 年 07月 26日    
 
 [1]: https://github.com/chenandczh
